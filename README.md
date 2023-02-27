@@ -23,3 +23,8 @@ About Spring
 
 ### [회원 클래스 다이어그램 설계]
 ![image](https://user-images.githubusercontent.com/51987233/220662671-b3832cc6-b13b-463c-a710-e50b3a435d9a.png)
+----------------------------------------------------------------------------------
+('23.02.27)
+## ※문제점
+![image](https://user-images.githubusercontent.com/51987233/221590967-a39effc0-cf77-45c6-b5ed-e93f085f20da.png)
+#### 현재 MemberServiceImpl이 Interface인 MemberRepository 와 구현체인 MemoryMemberRepository를 의존하고 있음 -> DIP(추상화에 의존해야지 구체화에 의존하면 안됨) 위반
