@@ -28,3 +28,6 @@ About Spring
 ### ※문제점
 ![image](https://user-images.githubusercontent.com/51987233/221590967-a39effc0-cf77-45c6-b5ed-e93f085f20da.png)
 #### 현재 MemberServiceImpl이 Interface인 MemberRepository 와 구현체인 MemoryMemberRepository를 의존하고 있음 -> DIP(추상화에 의존해야지 구체화에 의존하면 안됨) 위반
+
+### [주문,할인 도메인 설계]
+![image](https://user-images.githubusercontent.com/51987233/221600023-87ad886d-eeca-432d-9e88-b94514217fbe.png)
